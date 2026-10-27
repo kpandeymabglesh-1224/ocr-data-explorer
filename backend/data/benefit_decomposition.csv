@@ -1,0 +1,12 @@
+# encoder share = (scratch - synthenc) / (scratch - synthsup).
+# Blank share means the value is not meaningful; status says why.
+n,cer_scratch,cer_synthenc,cer_synthsup,encoder_share,share_lo,share_hi,status
+10,0.9529,0.9287,0.6558,0.0815,0.0195,0.1371,ok
+25,0.9372,0.9207,0.5971,0.0484,0.0059,0.0935,ok
+50,0.8992,0.8730,0.5493,0.0747,0.0424,0.1028,ok
+100,0.8092,0.7492,0.4796,0.1821,0.0939,0.2663,ok
+250,0.6020,0.5645,0.4283,0.2160,0.0603,0.3673,ok
+500,0.4174,0.3855,0.3615,0.5700,0.2230,1.0317,ok
+1000,0.3148,0.2940,0.2982,,,,point share outside [0,1]
+2000,0.2442,0.2391,0.2402,,,,denominator not distinguishable from zero
+4000,0.1966,0.1975,0.1924,,,,denominator not distinguishable from zero
